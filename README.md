@@ -1,5 +1,5 @@
 
-### Please notice the project runs on the development server which servers products.json
+### Please notice the project runs on the development server which serves products.json
 ### I wanted to simulate a real live scanario of fetching data from server.
 
 ### Run dev server
