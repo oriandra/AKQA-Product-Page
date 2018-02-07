@@ -45,7 +45,7 @@ class App extends Component {
 					{this.state.filterDataBySize && this.state.filterDataBySize.map((x,i)=> (
 						<li key={i}>
 							<img src={`/static/${x.productImage}`} />
-							<div>
+							<div className="product-details">
 							{x.isSale && <span className="badge -sale">Sale</span>}
 							{x.isExclusive && <span className="badge -exclusive">Exclusive</span>}
 							<p>{x.productName} <span>{x.price}</span></p>
