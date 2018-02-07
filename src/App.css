@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 3em 0; }
+  .App .App-header {
+    background-color: #def1f4;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white; }
+    .App .App-header h2 {
+      margin: 0.5em 0;
+      color: #343434; }
+    .App .App-header select {
+      width: 150px; }
+  .App ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    padding: 0; }
+    .App ul li {
+      float: left;
+      width: 25%;
+      box-sizing: border-box;
+      border: 1px solid #e8e8e8; }
+      @media (max-width: 768px) {
+        .App ul li {
+          width: auto;
+          float: none;
+          flex: auto; } }
+      .App ul li img {
+        width: 100%; }
+      .App ul li > div {
+        display: flex;
+        min-height: 105px;
+        padding: 0 1em;
+        flex-direction: column;
+        justify-content: flex-end; }
+        .App ul li > div p {
+          justify-content: space-between;
+          display: flex;
+          font-size: 16px;
+          color: #333333;
+          align-items: flex-end;
+          text-align: left; }
+          .App ul li > div p span {
+            font-size: 20px;
+            font-weight: bold; }
+
+.badge {
+  display: table;
+  padding: 1em 2em;
+  color: #fff;
+  font-size: 75%;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline; }
+  .badge.-sale {
+    background: #cc3333; }
+  .badge.-exclusive {
+    background: #009900; }
